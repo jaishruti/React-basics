@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.sub-container{
+    background-color: black;
+    width: 500px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+
+}
+.question{
+    display: flex;
+    gap: 20px
+}
+h1{
+    font-size: large;
+}
+
