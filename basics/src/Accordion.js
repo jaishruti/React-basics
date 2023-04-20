@@ -16,14 +16,16 @@ const questions = [
 function Question({ title, ans }) {
     const [isOpen, setOpen] = useState(false);
     return(
+        <div>
     <section className='question'>
         <div>{title}</div>
         <div className='symbol' onClick={() => setOpen(!isOpen)}>{
             isOpen ? "-" : "+"
         }</div>
+    </section>
 
         {isOpen && <div className='answer'>{ans}</div>}
-    </section>
+        </div>
     )
 }
 export const Accordion = () => {
