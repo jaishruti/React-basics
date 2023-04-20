@@ -19,6 +19,9 @@
     display: flex;
     gap: 20px
 }
+.answer{
+padding-left: 20px;
+}
 h1{
     font-size: large;
 }
