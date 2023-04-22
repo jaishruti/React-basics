@@ -7,7 +7,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <div>
             {/* call components  */}
-         <Slider/>
+         <Accordion/>
         </div>
     </React.StrictMode>
 
